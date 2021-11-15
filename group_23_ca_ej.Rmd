@@ -1,0 +1,15 @@
+---
+title: 'Group 23 CA pollution burden'
+author: "By: Claire Gonzales and Naomi Raal"
+date: "11/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
