@@ -34,3 +34,13 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
 
 ```
 **Figure 1** Depiction of the relationship between the percentage (%) white population and the aggregate CalEnviroScreen 3.0 score in California. Color represents density of observations per hexbin. 
+
+
+# Overall Trends
+
+There is a negative correlation between percentage white population and CES 3.0 score. This means that the higher the percent of a population is white, the less that population tends to be exposed to pollution. 
+
+# Data Citation
+
+CalEnviroScreen 3.0.  https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-30
+
