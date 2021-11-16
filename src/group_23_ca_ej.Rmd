@@ -5,8 +5,8 @@ date: "11/14/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 
 # install packages
 
@@ -33,4 +33,4 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   theme_minimal()
 
 ```
-
+**Figure 1** Depiction of the relationship between the percentage (%) white population and the aggregate CalEnviroScreen 3.0 score in California. Color represents density of observations per hexbin. 
